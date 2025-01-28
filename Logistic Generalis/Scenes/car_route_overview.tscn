@@ -1,0 +1,18 @@
+[gd_scene load_steps=6 format=3 uid="uid://mobx5lq4yuxf"]
+
+[ext_resource type="Script" path="res://Scenes/car_route_overview.gd" id="1_kn12m"]
+[ext_resource type="PackedScene" uid="uid://s4fk4sdipehp" path="res://Scenes/Cartop_route.tscn" id="2_saxqy"]
+[ext_resource type="PackedScene" uid="uid://dk8h2rivwqrw3" path="res://Scenes/Carmiddle_route.tscn" id="3_t65sm"]
+[ext_resource type="PackedScene" uid="uid://l6kew502umye" path="res://Scenes/CarMiddleRoute.tscn" id="4_fc2lw"]
+[ext_resource type="PackedScene" uid="uid://cbnr5ewwm61e1" path="res://Scenes/top_route_right.tscn" id="5_gqfjq"]
+
+[node name="Car route Overview" type="Node2D"]
+script = ExtResource("1_kn12m")
+
+[node name="Top Route" parent="." instance=ExtResource("2_saxqy")]
+
+[node name="Middle Route" parent="." instance=ExtResource("3_t65sm")]
+
+[node name="Top Route2" parent="." instance=ExtResource("4_fc2lw")]
+
+[node name="Top Route3" parent="." instance=ExtResource("5_gqfjq")]

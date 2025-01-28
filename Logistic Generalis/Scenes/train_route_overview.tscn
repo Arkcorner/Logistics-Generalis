@@ -1,0 +1,32 @@
+[gd_scene load_steps=2 format=3 uid="uid://bxiac3i6u1n72"]
+
+[ext_resource type="Script" path="res://Code/train_route_overview.gd" id="1_kth80"]
+
+[node name="Train Route Overview" type="Node2D"]
+script = ExtResource("1_kth80")
+
+[node name="Top" type="Area2D" parent="."]
+position = Vector2(-235, -15)
+
+[node name="Top" type="CollisionPolygon2D" parent="Top"]
+modulate = Color(0.133196, 0.133196, 0.133196, 1)
+position = Vector2(-399.746, 44.5567)
+rotation = -0.435304
+polygon = PackedVector2Array(-137.691, -12.8142, -139.968, 1.56697, 155.518, 8.84844, 149.022, -15.1266)
+
+[node name="Middle" type="Area2D" parent="."]
+position = Vector2(-235, -15)
+
+[node name="Middle" type="CollisionPolygon2D" parent="Middle"]
+modulate = Color(0.144063, 0.144063, 0.144063, 1)
+position = Vector2(-334, 41)
+polygon = PackedVector2Array(212, 42, -196, 63, -196, 75, 215, 54)
+
+[node name="Bottom" type="Area2D" parent="."]
+position = Vector2(-231, -14)
+
+[node name="Bottom" type="CollisionPolygon2D" parent="Bottom"]
+modulate = Color(0.0687983, 0.0687983, 0.0687983, 1)
+position = Vector2(-406, 177)
+rotation = 0.456241
+polygon = PackedVector2Array(132.431, -7.06915, 134.518, 13.0715, -150.793, 10.5109, -147.103, -4.66748)

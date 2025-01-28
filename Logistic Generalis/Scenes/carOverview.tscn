@@ -1,0 +1,20 @@
+[gd_scene load_steps=5 format=3 uid="uid://uuoxmy7m5sv1"]
+
+[ext_resource type="PackedScene" uid="uid://l6kew502umye" path="res://Scenes/CarMiddleRoute.tscn" id="1_amhno"]
+[ext_resource type="PackedScene" uid="uid://dk8h2rivwqrw3" path="res://Scenes/Carmiddle_route.tscn" id="2_5d2lu"]
+[ext_resource type="PackedScene" uid="uid://cbnr5ewwm61e1" path="res://Scenes/top_route_right.tscn" id="3_tfyiu"]
+[ext_resource type="PackedScene" uid="uid://s4fk4sdipehp" path="res://Scenes/Cartop_route.tscn" id="4_b3dpi"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Top Route2" parent="." instance=ExtResource("1_amhno")]
+position = Vector2(-275, 232)
+
+[node name="Middle Route" parent="." instance=ExtResource("2_5d2lu")]
+position = Vector2(-326, 75)
+
+[node name="Top Route3" parent="." instance=ExtResource("3_tfyiu")]
+position = Vector2(-240, -22)
+
+[node name="Top Route" parent="." instance=ExtResource("4_b3dpi")]
+position = Vector2(-492, -81)

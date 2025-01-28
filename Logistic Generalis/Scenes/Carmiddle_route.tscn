@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=3 uid="uid://dk8h2rivwqrw3"]
+
+[ext_resource type="Script" path="res://Code/Middle Route.gd" id="1_mpjfp"]
+
+[node name="Middle Route" type="Area2D"]
+position = Vector2(-483, -88)
+script = ExtResource("1_mpjfp")
+
+[node name="Middle Route" type="CollisionPolygon2D" parent="."]
+modulate = Color(0.0430392, 0.0430392, 0.0430392, 1)
+position = Vector2(156, 153)
+polygon = PackedVector2Array(-204, 34, -195, 56, -1, 26, 79, -66, 57, -82, -4, -3)

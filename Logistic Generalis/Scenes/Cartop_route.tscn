@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://s4fk4sdipehp"]
+
+[ext_resource type="Script" path="res://Code/Top Route.gd" id="1_abso3"]
+
+[node name="Top Route" type="Area2D"]
+position = Vector2(-483, -88)
+script = ExtResource("1_abso3")
+
+[node name="TopRoute" type="CollisionPolygon2D" parent="."]
+modulate = Color(0.000113828, 0.000113828, 0.000113828, 1)
+polygon = PackedVector2Array(-65, 178, -50, 184, 8, 12, 210, 79, 220, 57, -3, -27)

@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=3 uid="uid://l6kew502umye"]
+
+[ext_resource type="Script" path="res://Code/Low route.gd" id="1_w4y64"]
+
+[node name="Top Route2" type="Area2D"]
+position = Vector2(-265, 222)
+script = ExtResource("1_w4y64")
+
+[node name="Low Route" type="CollisionPolygon2D" parent="."]
+modulate = Color(0.0177324, 0.0177324, 0.0177324, 1)
+position = Vector2(4, 28)
+polygon = PackedVector2Array(-36, -179, -72, -157, -12, 12, 110, -43, 158, -162, -3, -28)
