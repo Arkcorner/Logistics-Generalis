@@ -20,6 +20,11 @@ config/icon="res://icon.svg"
 Global="*res://Code/global.gd"
 MainLevel="*res://main_level.tscn"
 
+[display]
+
+window/size/viewport_width=1920
+window/size/viewport_height=1080
+
 [input]
 
 mb_left={

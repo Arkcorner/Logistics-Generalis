@@ -20,3 +20,6 @@ func _draw():
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
 	pass
+func hideOtherRoutes():
+	top_route.hide()
+	top_right.hide()

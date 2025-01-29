@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://djd3hrxyspgk"]
+
+[ext_resource type="Texture2D" uid="uid://dcortdjanc4y6" path="res://Art/Defense.png" id="1_lgvb4"]
+
+[node name="Defense Icon" type="Sprite2D"]
+scale = Vector2(0.25, 0.25)
+texture = ExtResource("1_lgvb4")
