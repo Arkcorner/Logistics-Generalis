@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://4o2mftaefb6p"]
+
+[ext_resource type="Script" path="res://Code/OutpostScript.gd" id="1_t6mca"]
+[ext_resource type="Texture2D" uid="uid://qp7r6ent5c26" path="res://Art/Rebels.png" id="1_ymqih"]
+
+[node name="OutpostRebels" type="Node2D"]
+script = ExtResource("1_t6mca")
+
+[node name="TextureButton" type="TextureButton" parent="."]
+offset_right = 32.0
+offset_bottom = 32.0
+texture_normal = ExtResource("1_ymqih")
+
+[connection signal="pressed" from="TextureButton" to="." method="_on_texture_button_pressed"]

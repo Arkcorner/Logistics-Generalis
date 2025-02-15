@@ -58,8 +58,6 @@ func _on_train_button_pressed():
 
 func firstTurn():
 	tunCount += 1
-	if tunCount == 10:
-		loss.show()
 	if supplycount >= 1000:
 		supplycount -= 10
 	for province in ProvinceList:
@@ -74,7 +72,7 @@ func firstTurn():
 	fuel_label.set_text(str(supplycount))
 		
 	pass
-
+func _loss(): get_tree().change_scene_to_file("res://Scenes/end_screen.tscn")
 
 func _on_end_turn_button_pressed():
 	#if turn == 0:

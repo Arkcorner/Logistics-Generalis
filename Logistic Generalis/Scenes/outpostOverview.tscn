@@ -1,0 +1,70 @@
+[gd_scene load_steps=3 format=3 uid="uid://b30rm3ibx00jn"]
+
+[ext_resource type="PackedScene" uid="uid://4o2mftaefb6p" path="res://Scenes/outpost_rebels.tscn" id="1_tocnh"]
+[ext_resource type="PackedScene" uid="uid://dawlc87ibqd16" path="res://Scenes/outpost_no_rebels.tscn" id="2_hk5bd"]
+
+[node name="Outpost" type="Node2D"]
+
+[node name="ADorf" parent="." instance=ExtResource("1_tocnh")]
+position = Vector2(-499, -105)
+Village = 1
+NeighboringVillage1 = 4
+NextToBase = true
+
+[node name="BDorf" parent="." instance=ExtResource("2_hk5bd")]
+position = Vector2(-349, 63)
+Village = 2
+NeighboringVillage1 = 3
+NeighboringVillage2 = 4
+NextToBase = true
+
+[node name="CDorf" parent="." instance=ExtResource("1_tocnh")]
+position = Vector2(-291, 228)
+Village = 3
+
+[node name="DDorf" parent="." instance=ExtResource("2_hk5bd")]
+position = Vector2(-271, -36)
+Village = 4
+NeighboringVillage1 = 5
+NeighboringVillage2 = 6
+NeighboringVillage3 = 2
+
+[node name="EDorf" parent="." instance=ExtResource("1_tocnh")]
+position = Vector2(-207, -165)
+Village = 5
+
+[node name="FDorf" parent="." instance=ExtResource("1_tocnh")]
+position = Vector2(-122, 75)
+Village = 6
+NeighboringVillage1 = 7
+NeighboringVillage2 = 8
+
+[node name="GDorf" parent="." instance=ExtResource("2_hk5bd")]
+position = Vector2(3, -48)
+Village = 7
+NeighboringVillage1 = 9
+
+[node name="HDorf" parent="." instance=ExtResource("1_tocnh")]
+position = Vector2(-78, 176)
+Village = 8
+NeighboringVillage1 = 10
+
+[node name="IDorf" parent="." instance=ExtResource("2_hk5bd")]
+position = Vector2(138, -146)
+Village = 9
+
+[node name="JDorf" parent="." instance=ExtResource("1_tocnh")]
+position = Vector2(129, 110)
+Village = 10
+NeighboringVillage1 = 9
+NextToBase = true
+
+[node name="KDorf" parent="." instance=ExtResource("2_hk5bd")]
+position = Vector2(405, -143)
+Village = 11
+NeighboringVillage1 = 12
+
+[node name="LDorf" parent="." instance=ExtResource("2_hk5bd")]
+position = Vector2(411, 74)
+Village = 12
+NextToBase = true
