@@ -115,317 +115,368 @@ texture_normal = ExtResource("11_mg5sn")
 script = ExtResource("12_8epo0")
 
 [node name="Province1" parent="Provinces" instance=ExtResource("12_y1dea")]
-position = Vector2(-520, -82)
+position = Vector2(-571, -143)
 province_number = 1
 
 [node name="Province2" parent="Provinces" instance=ExtResource("12_y1dea")]
-position = Vector2(-520, -27)
+position = Vector2(-571, -88)
 province_number = 2
 
 [node name="Province3" parent="Provinces" instance=ExtResource("12_y1dea")]
-position = Vector2(-520, 25)
+position = Vector2(-571, -36)
 province_number = 3
 
 [node name="Province4" parent="Provinces" instance=ExtResource("12_y1dea")]
-position = Vector2(-520, 80)
+position = Vector2(-571, 19)
 province_number = 4
 
 [node name="Province5" parent="Provinces" instance=ExtResource("12_y1dea")]
-position = Vector2(-520, 135)
+position = Vector2(-571, 74)
 province_number = 5
 
 [node name="Province6" parent="Provinces" instance=ExtResource("12_y1dea")]
-position = Vector2(-520, 191)
+position = Vector2(-571, 130)
 province_number = 6
 
 [node name="Province7" parent="Provinces" instance=ExtResource("12_y1dea")]
-position = Vector2(-474, -82)
+position = Vector2(-525, -143)
 province_number = 7
 
 [node name="Province8" parent="Provinces" instance=ExtResource("12_y1dea")]
-position = Vector2(-474, -27)
+position = Vector2(-525, -88)
 province_number = 8
 
 [node name="Province9" parent="Provinces" instance=ExtResource("12_y1dea")]
-position = Vector2(-474, 25)
+position = Vector2(-525, -36)
 province_number = 9
 
 [node name="Province10" parent="Provinces" instance=ExtResource("12_y1dea")]
-position = Vector2(-474, 80)
+position = Vector2(-525, 19)
 province_number = 10
 
 [node name="Province11" parent="Provinces" instance=ExtResource("12_y1dea")]
-position = Vector2(-474, 135)
+position = Vector2(-525, 74)
 province_number = 11
 
 [node name="Province12" parent="Provinces" instance=ExtResource("12_y1dea")]
-position = Vector2(-474, 191)
+position = Vector2(-525, 130)
 province_number = 12
 
 [node name="Province13" parent="Provinces" instance=ExtResource("12_y1dea")]
-position = Vector2(-428, -82)
+position = Vector2(-479, -143)
 province_number = 13
 
 [node name="Province14" parent="Provinces" instance=ExtResource("12_y1dea")]
-position = Vector2(-428, -27)
+position = Vector2(-479, -88)
 province_number = 14
 
 [node name="Province15" parent="Provinces" instance=ExtResource("12_y1dea")]
-position = Vector2(-428, 25)
+position = Vector2(-479, -36)
 province_number = 15
 
 [node name="Province16" parent="Provinces" instance=ExtResource("12_y1dea")]
-position = Vector2(-428, 80)
+position = Vector2(-479, 19)
 province_number = 16
 
 [node name="Province17" parent="Provinces" instance=ExtResource("12_y1dea")]
-position = Vector2(-428, 135)
+position = Vector2(-479, 74)
 province_number = 17
 
 [node name="Province18" parent="Provinces" instance=ExtResource("12_y1dea")]
-position = Vector2(-428, 191)
+position = Vector2(-479, 130)
 province_number = 18
 
 [node name="Province19" parent="Provinces" instance=ExtResource("12_y1dea")]
-position = Vector2(-382, -82)
+position = Vector2(-433, -143)
 province_number = 19
 
 [node name="Province20" parent="Provinces" instance=ExtResource("12_y1dea")]
-position = Vector2(-382, -27)
+position = Vector2(-433, -88)
 province_number = 20
 
 [node name="Province21" parent="Provinces" instance=ExtResource("12_y1dea")]
-position = Vector2(-382, 25)
+position = Vector2(-433, -36)
 province_number = 21
 
 [node name="Province22" parent="Provinces" instance=ExtResource("12_y1dea")]
-position = Vector2(-382, 80)
+position = Vector2(-433, 19)
 province_number = 22
 
 [node name="Province23" parent="Provinces" instance=ExtResource("12_y1dea")]
-position = Vector2(-382, 135)
+position = Vector2(-433, 74)
 province_number = 23
 
 [node name="Province24" parent="Provinces" instance=ExtResource("12_y1dea")]
-position = Vector2(-382, 191)
+position = Vector2(-433, 130)
 province_number = 24
 
 [node name="Province25" parent="Provinces" instance=ExtResource("12_y1dea")]
-position = Vector2(-338, -82)
+position = Vector2(-389, -143)
 province_number = 25
 
 [node name="Province26" parent="Provinces" instance=ExtResource("12_y1dea")]
-position = Vector2(-338, -27)
+position = Vector2(-389, -88)
 province_number = 26
 
 [node name="Province27" parent="Provinces" instance=ExtResource("12_y1dea")]
-position = Vector2(-338, 25)
+position = Vector2(-389, -36)
 province_number = 27
 
 [node name="Province28" parent="Provinces" instance=ExtResource("12_y1dea")]
-position = Vector2(-338, 80)
+position = Vector2(-389, 19)
 province_number = 28
 
 [node name="Province29" parent="Provinces" instance=ExtResource("12_y1dea")]
-position = Vector2(-338, 135)
+position = Vector2(-389, 74)
 province_number = 29
 
 [node name="Province30" parent="Provinces" instance=ExtResource("12_y1dea")]
-position = Vector2(-338, 191)
+position = Vector2(-389, 130)
 province_number = 30
 
 [node name="Province31" parent="Provinces" instance=ExtResource("12_y1dea")]
-position = Vector2(-292, -82)
+position = Vector2(-343, -143)
 province_number = 31
 
 [node name="Province32" parent="Provinces" instance=ExtResource("12_y1dea")]
-position = Vector2(-292, -27)
+position = Vector2(-343, -88)
 province_number = 32
 
 [node name="Province33" parent="Provinces" instance=ExtResource("12_y1dea")]
-position = Vector2(-292, 25)
+position = Vector2(-343, -36)
 province_number = 33
 
 [node name="Province34" parent="Provinces" instance=ExtResource("12_y1dea")]
-position = Vector2(-292, 80)
+position = Vector2(-343, 19)
 province_number = 34
 
 [node name="Province35" parent="Provinces" instance=ExtResource("12_y1dea")]
-position = Vector2(-292, 135)
+position = Vector2(-343, 74)
 province_number = 35
 
 [node name="Province36" parent="Provinces" instance=ExtResource("12_y1dea")]
-position = Vector2(-292, 191)
+position = Vector2(-343, 130)
 province_number = 36
 
 [node name="Province37" parent="Provinces" instance=ExtResource("12_y1dea")]
-position = Vector2(-244, -82)
+position = Vector2(-295, -143)
 province_number = 37
 
 [node name="Province38" parent="Provinces" instance=ExtResource("12_y1dea")]
-position = Vector2(-244, -27)
+position = Vector2(-295, -88)
 province_number = 38
 
 [node name="Province39" parent="Provinces" instance=ExtResource("12_y1dea")]
-position = Vector2(-244, 25)
+position = Vector2(-295, -36)
 province_number = 39
 
 [node name="Province40" parent="Provinces" instance=ExtResource("12_y1dea")]
-position = Vector2(-244, 80)
+position = Vector2(-295, 19)
 province_number = 40
 
 [node name="Province41" parent="Provinces" instance=ExtResource("12_y1dea")]
-position = Vector2(-244, 135)
+position = Vector2(-295, 74)
 province_number = 41
 
 [node name="Province42" parent="Provinces" instance=ExtResource("12_y1dea")]
-position = Vector2(-244, 191)
+position = Vector2(-295, 130)
 province_number = 42
 
 [node name="Province43" parent="Provinces" instance=ExtResource("12_y1dea")]
-position = Vector2(-198, -82)
+position = Vector2(-249, -143)
 province_number = 43
 
 [node name="Province44" parent="Provinces" instance=ExtResource("12_y1dea")]
-position = Vector2(-198, -27)
+position = Vector2(-249, -88)
 province_number = 44
 
 [node name="Province45" parent="Provinces" instance=ExtResource("12_y1dea")]
-position = Vector2(-198, 25)
+position = Vector2(-249, -36)
 province_number = 45
 
 [node name="Province46" parent="Provinces" instance=ExtResource("12_y1dea")]
-position = Vector2(-198, 80)
+position = Vector2(-249, 19)
 province_number = 46
 is_enemy = true
 
 [node name="Province47" parent="Provinces" instance=ExtResource("12_y1dea")]
-position = Vector2(-198, 135)
+position = Vector2(-249, 74)
 province_number = 47
 is_enemy = true
 
 [node name="Province48" parent="Provinces" instance=ExtResource("12_y1dea")]
-position = Vector2(-198, 191)
+position = Vector2(-249, 130)
 province_number = 48
 supply_level = 200
 
 [node name="Province49" parent="Provinces" instance=ExtResource("12_y1dea")]
-position = Vector2(-152, -82)
+position = Vector2(-203, -143)
 province_number = 49
 
 [node name="Province50" parent="Provinces" instance=ExtResource("12_y1dea")]
-position = Vector2(-152, -27)
+position = Vector2(-203, -88)
 province_number = 50
 is_enemy = true
 
 [node name="Province51" parent="Provinces" instance=ExtResource("12_y1dea")]
-position = Vector2(-152, 25)
+position = Vector2(-203, -36)
 province_number = 51
 is_enemy = true
 
 [node name="Province52" parent="Provinces" instance=ExtResource("12_y1dea")]
-position = Vector2(-152, 80)
+position = Vector2(-203, 19)
 province_number = 52
 is_enemy = true
 
 [node name="Province53" parent="Provinces" instance=ExtResource("12_y1dea")]
-position = Vector2(-152, 135)
+position = Vector2(-203, 74)
 province_number = 53
 is_enemy = true
 
 [node name="Province54" parent="Provinces" instance=ExtResource("12_y1dea")]
-position = Vector2(-152, 191)
+position = Vector2(-203, 130)
 province_number = 54
 is_enemy = true
 
 [node name="Province55" parent="Provinces" instance=ExtResource("12_y1dea")]
-position = Vector2(-106, -82)
+position = Vector2(-157, -143)
 province_number = 55
 is_enemy = true
 
 [node name="Province56" parent="Provinces" instance=ExtResource("12_y1dea")]
-position = Vector2(-106, -27)
+position = Vector2(-157, -88)
 province_number = 56
 is_enemy = true
 
 [node name="Province57" parent="Provinces" instance=ExtResource("12_y1dea")]
-position = Vector2(-106, 25)
+position = Vector2(-157, -36)
 province_number = 57
 is_enemy = true
 
 [node name="Province58" parent="Provinces" instance=ExtResource("12_y1dea")]
-position = Vector2(-106, 80)
+position = Vector2(-157, 19)
 province_number = 58
 is_enemy = true
 
 [node name="Province59" parent="Provinces" instance=ExtResource("12_y1dea")]
-position = Vector2(-106, 135)
+position = Vector2(-157, 74)
 province_number = 59
 is_enemy = true
 
 [node name="Province60" parent="Provinces" instance=ExtResource("12_y1dea")]
-position = Vector2(-106, 191)
+position = Vector2(-157, 130)
 province_number = 60
 is_enemy = true
 
 [node name="Province61" parent="Provinces" instance=ExtResource("12_y1dea")]
-position = Vector2(-58, -82)
+position = Vector2(-109, -143)
 province_number = 61
 is_enemy = true
 
 [node name="Province62" parent="Provinces" instance=ExtResource("12_y1dea")]
-position = Vector2(-58, -27)
+position = Vector2(-109, -88)
 province_number = 62
 is_enemy = true
 
 [node name="Province63" parent="Provinces" instance=ExtResource("12_y1dea")]
-position = Vector2(-58, 25)
+position = Vector2(-109, -36)
 province_number = 63
 is_enemy = true
 
 [node name="Province64" parent="Provinces" instance=ExtResource("12_y1dea")]
-position = Vector2(-58, 80)
+position = Vector2(-109, 19)
 province_number = 64
 is_enemy = true
 
 [node name="Province65" parent="Provinces" instance=ExtResource("12_y1dea")]
-position = Vector2(-58, 135)
+position = Vector2(-109, 74)
 province_number = 65
 is_enemy = true
 
 [node name="Province66" parent="Provinces" instance=ExtResource("12_y1dea")]
-position = Vector2(-58, 191)
+position = Vector2(-109, 130)
 province_number = 66
 is_enemy = true
 
 [node name="Province67" parent="Provinces" instance=ExtResource("12_y1dea")]
-position = Vector2(-22, -82)
+position = Vector2(-73, -143)
 province_number = 67
 is_enemy = true
 
 [node name="Province68" parent="Provinces" instance=ExtResource("12_y1dea")]
-position = Vector2(-22, -27)
+position = Vector2(-73, -88)
 province_number = 68
 is_enemy = true
 
 [node name="Province69" parent="Provinces" instance=ExtResource("12_y1dea")]
-position = Vector2(-22, 25)
+position = Vector2(-73, -36)
 province_number = 69
 is_enemy = true
 
 [node name="Province70" parent="Provinces" instance=ExtResource("12_y1dea")]
-position = Vector2(-22, 80)
+position = Vector2(-73, 19)
 province_number = 70
 is_enemy = true
 
 [node name="Province71" parent="Provinces" instance=ExtResource("12_y1dea")]
-position = Vector2(-22, 135)
+position = Vector2(-73, 74)
 province_number = 71
 is_enemy = true
 
 [node name="Province72" parent="Provinces" instance=ExtResource("12_y1dea")]
-position = Vector2(-22, 191)
+position = Vector2(-73, 130)
 province_number = 72
+is_enemy = true
+
+[node name="Province73" parent="Provinces" instance=ExtResource("12_y1dea")]
+position = Vector2(-571, -143)
+province_number = 1
+
+[node name="Province74" parent="Provinces" instance=ExtResource("12_y1dea")]
+position = Vector2(-525, -143)
+province_number = 7
+
+[node name="Province75" parent="Provinces" instance=ExtResource("12_y1dea")]
+position = Vector2(-479, -143)
+province_number = 13
+
+[node name="Province76" parent="Provinces" instance=ExtResource("12_y1dea")]
+position = Vector2(-433, -143)
+province_number = 19
+
+[node name="Province77" parent="Provinces" instance=ExtResource("12_y1dea")]
+position = Vector2(-389, -143)
+province_number = 25
+
+[node name="Province78" parent="Provinces" instance=ExtResource("12_y1dea")]
+position = Vector2(-343, -143)
+province_number = 31
+
+[node name="Province79" parent="Provinces" instance=ExtResource("12_y1dea")]
+position = Vector2(-295, -143)
+province_number = 37
+
+[node name="Province80" parent="Provinces" instance=ExtResource("12_y1dea")]
+position = Vector2(-249, -143)
+province_number = 43
+
+[node name="Province81" parent="Provinces" instance=ExtResource("12_y1dea")]
+position = Vector2(-203, -143)
+province_number = 49
+
+[node name="Province82" parent="Provinces" instance=ExtResource("12_y1dea")]
+position = Vector2(-157, -143)
+province_number = 55
+is_enemy = true
+
+[node name="Province83" parent="Provinces" instance=ExtResource("12_y1dea")]
+position = Vector2(-109, -143)
+province_number = 61
+is_enemy = true
+
+[node name="Province84" parent="Provinces" instance=ExtResource("12_y1dea")]
+position = Vector2(-73, -143)
+province_number = 67
 is_enemy = true
 
 [node name="MedicalLabel" type="Label" parent="."]
