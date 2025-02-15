@@ -86,20 +86,21 @@ func find_neighbors():
 	var potential_neighbors = [
 		province_number + 1,
 		province_number - 1,
-		province_number + 6,
-		province_number - 6
+		province_number + 8,
+		province_number - 8
 	]
 
 	for neighbor_num in potential_neighbors:
-		if neighbor_num >= 1 and neighbor_num <= 72: # Valid province range
-			if neighbor_num == province_number + 1 and (province_number % 6 == 0):
+		if neighbor_num >= 1 and neighbor_num <= 184: # Valid province range
+			if neighbor_num == province_number + 1 and (province_number % 8 == 0):
 				continue
-			if neighbor_num == province_number - 1 and (province_number % 6 == 1):
+			if neighbor_num == province_number - 1 and (province_number % 8 == 1):
 				continue
 
 			var neighbor_node = provinces_parent.get_node_or_null("Province" + str(neighbor_num))
 			if neighbor_node:
-				neighbors.append(neighbor_node)
+				neighbors.append(neighbor_node) 
+				print(neighbor_node)
 
 	categorize_neighbors()
 
