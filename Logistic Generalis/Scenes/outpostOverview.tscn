@@ -1,7 +1,7 @@
-[gd_scene load_steps=3 format=3 uid="uid://b30rm3ibx00jn"]
+[gd_scene load_steps=3 format=3 uid="uid://u3jss2ar6kjb"]
 
-[ext_resource type="PackedScene" uid="uid://4o2mftaefb6p" path="res://Scenes/outpost_rebels.tscn" id="1_tocnh"]
-[ext_resource type="PackedScene" uid="uid://dawlc87ibqd16" path="res://Scenes/outpost_no_rebels.tscn" id="2_hk5bd"]
+[ext_resource type="PackedScene" path="res://Scenes/outpost_rebels.tscn" id="1_tocnh"]
+[ext_resource type="PackedScene" path="res://Scenes/outpost_no_rebels.tscn" id="2_hk5bd"]
 
 [node name="Outpost" type="Node2D"]
 

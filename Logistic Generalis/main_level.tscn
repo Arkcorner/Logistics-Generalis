@@ -1,4 +1,4 @@
-[gd_scene load_steps=17 format=3 uid="uid://7m42pwkxpiyk"]
+[gd_scene load_steps=18 format=3 uid="uid://7m42pwkxpiyk"]
 
 [ext_resource type="Texture2D" uid="uid://dmijws0qtohqv" path="res://Art/map_game_dev.png" id="1_kwisq"]
 [ext_resource type="Script" path="res://Code/main_level.gd" id="1_on6me"]
@@ -13,6 +13,7 @@
 [ext_resource type="Texture2D" uid="uid://dpcjijvoyqvuw" path="res://Art/Fuel.png" id="11_mg5sn"]
 [ext_resource type="Script" path="res://Code/Provinces.gd" id="12_8epo0"]
 [ext_resource type="PackedScene" uid="uid://dc1ieuftne1x7" path="res://Scenes/province.tscn" id="12_y1dea"]
+[ext_resource type="PackedScene" uid="uid://u3jss2ar6kjb" path="res://Scenes/outpostOverview.tscn" id="14_7q6a8"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_t4i2k"]
 resource_name = "Friendly"
@@ -1032,6 +1033,9 @@ offset_right = -44.0
 offset_bottom = 57.0
 theme_override_font_sizes/font_size = 50
 text = "You have Lost "
+
+[node name="Outpost" parent="." instance=ExtResource("14_7q6a8")]
+visible = false
 
 [connection signal="pressed" from="CarButton" to="." method="_on_car_button_pressed"]
 [connection signal="pressed" from="TrainButton" to="." method="_on_train_button_pressed"]
