@@ -1,0 +1,200 @@
+[gd_scene load_steps=5 format=3 uid="uid://u3jss2ar6kjb"]
+
+[ext_resource type="PackedScene" uid="uid://4o2mftaefb6p" path="res://Scenes/outpost_rebels.tscn" id="1_tocnh"]
+[ext_resource type="PackedScene" uid="uid://dawlc87ibqd16" path="res://Scenes/outpost_no_rebels.tscn" id="2_hk5bd"]
+[ext_resource type="Texture2D" uid="uid://qp7r6ent5c26" path="res://Art/Rebels.png" id="3_k5jm8"]
+[ext_resource type="Texture2D" uid="uid://dsvcua3j8hyn0" path="res://Art/NoRebels.png" id="4_rpem7"]
+
+[node name="Outpost" type="Node2D"]
+
+[node name="1Dorf" parent="." instance=ExtResource("1_tocnh")]
+offset_left = -499.0
+offset_top = -105.0
+offset_right = -499.0
+offset_bottom = -105.0
+Village = 1
+NeighboringVillage1 = 4
+NextToBase = true
+
+[node name="2Dorf" parent="." instance=ExtResource("2_hk5bd")]
+offset_left = -349.0
+offset_top = 63.0
+offset_right = -349.0
+offset_bottom = 63.0
+Village = 2
+NeighboringVillage1 = 3
+NeighboringVillage2 = 4
+NextToBase = true
+
+[node name="3Dorf" parent="." instance=ExtResource("1_tocnh")]
+offset_left = -291.0
+offset_top = 228.0
+offset_right = -291.0
+offset_bottom = 228.0
+Village = 3
+
+[node name="4Dorf" parent="." instance=ExtResource("2_hk5bd")]
+offset_left = -271.0
+offset_top = -36.0
+offset_right = -271.0
+offset_bottom = -36.0
+Village = 4
+NeighboringVillage1 = 5
+NeighboringVillage2 = 6
+NeighboringVillage3 = 2
+
+[node name="5Dorf" parent="." instance=ExtResource("1_tocnh")]
+offset_left = -207.0
+offset_top = -165.0
+offset_right = -207.0
+offset_bottom = -165.0
+Village = 5
+
+[node name="6Dorf" parent="." instance=ExtResource("1_tocnh")]
+offset_left = -122.0
+offset_top = 75.0
+offset_right = -122.0
+offset_bottom = 75.0
+Village = 6
+NeighboringVillage1 = 7
+NeighboringVillage2 = 8
+
+[node name="7Dorf" parent="." instance=ExtResource("2_hk5bd")]
+offset_left = 3.0
+offset_top = -48.0
+offset_right = 3.0
+offset_bottom = -48.0
+Village = 7
+NeighboringVillage1 = 9
+
+[node name="8Dorf" parent="." instance=ExtResource("1_tocnh")]
+offset_left = -78.0
+offset_top = 176.0
+offset_right = -78.0
+offset_bottom = 176.0
+Village = 8
+NeighboringVillage1 = 10
+
+[node name="9Dorf" parent="." instance=ExtResource("2_hk5bd")]
+offset_left = 138.0
+offset_top = -146.0
+offset_right = 138.0
+offset_bottom = -146.0
+Village = 9
+NeighboringVillage1 = 10
+NeighboringVillage2 = 11
+
+[node name="10Dorf" parent="." instance=ExtResource("1_tocnh")]
+offset_left = 129.0
+offset_top = 110.0
+offset_right = 129.0
+offset_bottom = 110.0
+Village = 10
+NeighboringVillage1 = 9
+NextToBase = true
+
+[node name="11Dorf" parent="." instance=ExtResource("2_hk5bd")]
+offset_left = 405.0
+offset_top = -143.0
+offset_right = 405.0
+offset_bottom = -143.0
+Village = 11
+NeighboringVillage1 = 12
+
+[node name="12Dorf" parent="." instance=ExtResource("2_hk5bd")]
+offset_left = 411.0
+offset_top = 74.0
+offset_right = 411.0
+offset_bottom = 74.0
+Village = 12
+NextToBase = true
+
+[node name="connection01" type="Sprite2D" parent="."]
+position = Vector2(-519, 10)
+rotation = -1.3687
+scale = Vector2(5.76284, 0.4375)
+texture = ExtResource("3_k5jm8")
+
+[node name="connection02" type="Sprite2D" parent="."]
+position = Vector2(-442.666, 96.9679)
+rotation = -0.0996279
+scale = Vector2(5.85071, 0.4375)
+texture = ExtResource("4_rpem7")
+
+[node name="connection14" type="Sprite2D" parent="."]
+position = Vector2(-368, -59)
+rotation = 0.304996
+scale = Vector2(6.64032, 0.4375)
+texture = ExtResource("4_rpem7")
+
+[node name="connection24" type="Sprite2D" parent="."]
+position = Vector2(-292.142, 29.2213)
+rotation = -0.987983
+scale = Vector2(2.76162, 0.4375)
+texture = ExtResource("4_rpem7")
+
+[node name="connection23" type="Sprite2D" parent="."]
+position = Vector2(-302, 160)
+rotation = -1.85923
+scale = Vector2(4.61612, 0.4375)
+texture = ExtResource("3_k5jm8")
+
+[node name="connection45" type="Sprite2D" parent="."]
+position = Vector2(-213, -88)
+rotation = -1.04892
+scale = Vector2(3.96026, 0.4375)
+texture = ExtResource("3_k5jm8")
+
+[node name="connection46" type="Sprite2D" parent="."]
+position = Vector2(-179, 35)
+rotation = -2.47651
+scale = Vector2(4.92967, 0.4375)
+texture = ExtResource("3_k5jm8")
+
+[node name="connection68" type="Sprite2D" parent="."]
+position = Vector2(-85, 136)
+rotation = -1.85016
+scale = Vector2(2.74649, 0.4375)
+texture = ExtResource("3_k5jm8")
+
+[node name="connection67" type="Sprite2D" parent="."]
+position = Vector2(-40, 29)
+rotation = -0.756878
+scale = Vector2(4.43911, 0.4375)
+texture = ExtResource("4_rpem7")
+
+[node name="connection79" type="Sprite2D" parent="."]
+position = Vector2(89, -82)
+rotation = -0.632329
+scale = Vector2(4.43911, 0.4375)
+texture = ExtResource("4_rpem7")
+
+[node name="connection810" type="Sprite2D" parent="."]
+position = Vector2(41.6918, 162.801)
+rotation = -3.42181
+scale = Vector2(6.48061, 0.4375)
+texture = ExtResource("3_k5jm8")
+
+[node name="connection911" type="Sprite2D" parent="."]
+position = Vector2(285, -127)
+rotation = 0.0177101
+scale = Vector2(7.36718, 0.4375)
+texture = ExtResource("4_rpem7")
+
+[node name="connection1112" type="Sprite2D" parent="."]
+position = Vector2(428, -23)
+rotation = 1.57289
+scale = Vector2(6.22572, 0.4375)
+texture = ExtResource("4_rpem7")
+
+[node name="connection1012" type="Sprite2D" parent="."]
+position = Vector2(288, 106)
+rotation = -0.103187
+scale = Vector2(8.06559, 0.4375)
+texture = ExtResource("4_rpem7")
+
+[node name="connection910" type="Sprite2D" parent="."]
+position = Vector2(151.371, -4.77609)
+rotation = -4.67945
+scale = Vector2(7.27924, 0.434416)
+texture = ExtResource("3_k5jm8")

@@ -1,0 +1,96 @@
+[gd_scene load_steps=3 format=3 uid="uid://o8fprtstrho8"]
+
+[ext_resource type="Texture2D" uid="uid://qp7r6ent5c26" path="res://Art/Rebels.png" id="1_57yqv"]
+[ext_resource type="Texture2D" uid="uid://dsvcua3j8hyn0" path="res://Art/NoRebels.png" id="2_is7j1"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="connection01" type="Sprite2D" parent="."]
+position = Vector2(-519, 10)
+rotation = -1.3687
+scale = Vector2(5.76284, 0.4375)
+texture = ExtResource("1_57yqv")
+
+[node name="connection02" type="Sprite2D" parent="."]
+position = Vector2(-442.666, 96.9679)
+rotation = -0.0996279
+scale = Vector2(5.85071, 0.4375)
+texture = ExtResource("2_is7j1")
+
+[node name="connection14" type="Sprite2D" parent="."]
+position = Vector2(-368, -59)
+rotation = 0.304996
+scale = Vector2(6.64032, 0.4375)
+texture = ExtResource("2_is7j1")
+
+[node name="connection24" type="Sprite2D" parent="."]
+position = Vector2(-292.142, 29.2213)
+rotation = -0.987983
+scale = Vector2(2.76162, 0.4375)
+texture = ExtResource("2_is7j1")
+
+[node name="connection23" type="Sprite2D" parent="."]
+position = Vector2(-302, 160)
+rotation = -1.85923
+scale = Vector2(4.61612, 0.4375)
+texture = ExtResource("1_57yqv")
+
+[node name="connection45" type="Sprite2D" parent="."]
+position = Vector2(-213, -88)
+rotation = -1.04892
+scale = Vector2(3.96026, 0.4375)
+texture = ExtResource("1_57yqv")
+
+[node name="connection46" type="Sprite2D" parent="."]
+position = Vector2(-179, 35)
+rotation = -2.47651
+scale = Vector2(4.92967, 0.4375)
+texture = ExtResource("1_57yqv")
+
+[node name="connection68" type="Sprite2D" parent="."]
+position = Vector2(-85, 136)
+rotation = -1.85016
+scale = Vector2(2.74649, 0.4375)
+texture = ExtResource("1_57yqv")
+
+[node name="connection67" type="Sprite2D" parent="."]
+position = Vector2(-40, 29)
+rotation = -0.756878
+scale = Vector2(4.43911, 0.4375)
+texture = ExtResource("2_is7j1")
+
+[node name="connection79" type="Sprite2D" parent="."]
+position = Vector2(89, -82)
+rotation = -0.632329
+scale = Vector2(4.43911, 0.4375)
+texture = ExtResource("2_is7j1")
+
+[node name="connection810" type="Sprite2D" parent="."]
+position = Vector2(41.6918, 162.801)
+rotation = -3.42181
+scale = Vector2(6.48061, 0.4375)
+texture = ExtResource("1_57yqv")
+
+[node name="connection911" type="Sprite2D" parent="."]
+position = Vector2(285, -127)
+rotation = 0.0177101
+scale = Vector2(7.36718, 0.4375)
+texture = ExtResource("2_is7j1")
+
+[node name="connection1112" type="Sprite2D" parent="."]
+position = Vector2(428, -23)
+rotation = 1.57289
+scale = Vector2(6.22572, 0.4375)
+texture = ExtResource("2_is7j1")
+
+[node name="connection1012" type="Sprite2D" parent="."]
+position = Vector2(288, 106)
+rotation = -0.103187
+scale = Vector2(8.06559, 0.4375)
+texture = ExtResource("2_is7j1")
+
+[node name="connection910" type="Sprite2D" parent="."]
+position = Vector2(151.371, -4.77609)
+rotation = -4.67945
+scale = Vector2(7.27924, 0.434416)
+texture = ExtResource("1_57yqv")

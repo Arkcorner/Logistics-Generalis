@@ -3,10 +3,8 @@
 [ext_resource type="Script" path="res://Code/OutpostScript.gd" id="1_8q276"]
 [ext_resource type="Texture2D" uid="uid://dsvcua3j8hyn0" path="res://Art/NoRebels.png" id="1_f34js"]
 
-[node name="OutpostNoRebels" type="Node2D"]
+[node name="OutpostNoRebels" type="TextureButton"]
+texture_normal = ExtResource("1_f34js")
 script = ExtResource("1_8q276")
 
-[node name="TextureButton" type="TextureButton" parent="."]
-offset_right = 32.0
-offset_bottom = 32.0
-texture_normal = ExtResource("1_f34js")
+[connection signal="pressed" from="." to="." method="_on_pressed"]

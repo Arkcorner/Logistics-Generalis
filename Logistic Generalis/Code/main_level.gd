@@ -1,6 +1,6 @@
 extends Node2D
 
-@onready var CaroverView = preload("res://Scenes/carOverview.tscn")
+@onready var CaroverView = preload("res://Scenes/outpostOverview.tscn")
 @onready var TrainoverView = preload("res://Scenes/train_route_overview.tscn")
 @onready var tile_map = $TileMap
 @onready var medical_label = $MedicalLabel
@@ -9,6 +9,7 @@ extends Node2D
 @onready var fuel_label = $FuelLabel
 @onready var ProvinceList = $Provinces.get_children()
 @onready var loss = $Loss
+@onready var turn_count = $TurnCount
 
 var supplycount = 100
 var tunCount = 0
@@ -26,11 +27,8 @@ func _ready():
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
-	if Input.is_action_just_pressed("mb_left"):
-		if CarView != null:
-			CarView.hideOtherRoutes()
-		#var tile: Vector2 = tile_map.local_to_map(get_global_mouse_position())
-		#tile_map.set_cell(0,tile,1)
+	if Input.is_action_just_pressed("ui_cancel"):
+		get_tree().quit()  # Quits the game
 	pass
 
 
@@ -56,8 +54,11 @@ func _on_train_button_pressed():
 		overviewActive = true
 	pass # Replace with function body.
 
-func firstTurn():
+func _loss(): get_tree().change_scene_to_file("res://Scenes/end_screen.tscn")
+
+func _on_end_turn_button_pressed():
 	tunCount += 1
+	turn_count.set_text("Current Turn: %d" %tunCount)
 	if supplycount >= 1000:
 		supplycount -= 10
 	for province in ProvinceList:
@@ -70,12 +71,20 @@ func firstTurn():
 	ammo_label.set_text(str(supplycount))
 	gun_label.set_text(str(supplycount))
 	fuel_label.set_text(str(supplycount))
-		
-	pass
-func _loss(): get_tree().change_scene_to_file("res://Scenes/end_screen.tscn")
+	pass # Replace with function body.
 
-func _on_end_turn_button_pressed():
-	#if turn == 0:
-	firstTurn()
-	#turn+=1
+
+func _on_medical_sups_pressed():
+	pass # Replace with function body.
+
+
+func _on_ammo_sups_pressed():
+	pass # Replace with function body.
+
+
+func _on_gun_sups_pressed():
+	pass # Replace with function body.
+
+
+func _on_fuel_sups_pressed():
 	pass # Replace with function body.

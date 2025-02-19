@@ -1,70 +1,110 @@
-[gd_scene load_steps=3 format=3 uid="uid://u3jss2ar6kjb"]
+[gd_scene load_steps=4 format=3 uid="uid://u3jss2ar6kjb"]
 
-[ext_resource type="PackedScene" path="res://Scenes/outpost_rebels.tscn" id="1_tocnh"]
-[ext_resource type="PackedScene" path="res://Scenes/outpost_no_rebels.tscn" id="2_hk5bd"]
+[ext_resource type="Script" path="res://Code/outpostOverview.gd" id="1_nfsvc"]
+[ext_resource type="PackedScene" uid="uid://4o2mftaefb6p" path="res://Scenes/outpost_rebels.tscn" id="1_tocnh"]
+[ext_resource type="PackedScene" uid="uid://dawlc87ibqd16" path="res://Scenes/outpost_no_rebels.tscn" id="2_hk5bd"]
 
 [node name="Outpost" type="Node2D"]
+script = ExtResource("1_nfsvc")
 
-[node name="ADorf" parent="." instance=ExtResource("1_tocnh")]
-position = Vector2(-499, -105)
+[node name="1Dorf" parent="." instance=ExtResource("1_tocnh")]
+offset_left = -499.0
+offset_top = -105.0
+offset_right = -499.0
+offset_bottom = -105.0
 Village = 1
 NeighboringVillage1 = 4
 NextToBase = true
 
-[node name="BDorf" parent="." instance=ExtResource("2_hk5bd")]
-position = Vector2(-349, 63)
+[node name="2Dorf" parent="." instance=ExtResource("2_hk5bd")]
+offset_left = -349.0
+offset_top = 63.0
+offset_right = -349.0
+offset_bottom = 63.0
 Village = 2
 NeighboringVillage1 = 3
 NeighboringVillage2 = 4
 NextToBase = true
 
-[node name="CDorf" parent="." instance=ExtResource("1_tocnh")]
-position = Vector2(-291, 228)
+[node name="3Dorf" parent="." instance=ExtResource("1_tocnh")]
+offset_left = -291.0
+offset_top = 228.0
+offset_right = -291.0
+offset_bottom = 228.0
 Village = 3
 
-[node name="DDorf" parent="." instance=ExtResource("2_hk5bd")]
-position = Vector2(-271, -36)
+[node name="4Dorf" parent="." instance=ExtResource("2_hk5bd")]
+offset_left = -271.0
+offset_top = -36.0
+offset_right = -271.0
+offset_bottom = -36.0
 Village = 4
 NeighboringVillage1 = 5
 NeighboringVillage2 = 6
 NeighboringVillage3 = 2
 
-[node name="EDorf" parent="." instance=ExtResource("1_tocnh")]
-position = Vector2(-207, -165)
+[node name="5Dorf" parent="." instance=ExtResource("1_tocnh")]
+offset_left = -207.0
+offset_top = -165.0
+offset_right = -207.0
+offset_bottom = -165.0
 Village = 5
 
-[node name="FDorf" parent="." instance=ExtResource("1_tocnh")]
-position = Vector2(-122, 75)
+[node name="6Dorf" parent="." instance=ExtResource("1_tocnh")]
+offset_left = -122.0
+offset_top = 75.0
+offset_right = -122.0
+offset_bottom = 75.0
 Village = 6
 NeighboringVillage1 = 7
 NeighboringVillage2 = 8
 
-[node name="GDorf" parent="." instance=ExtResource("2_hk5bd")]
-position = Vector2(3, -48)
+[node name="7Dorf" parent="." instance=ExtResource("2_hk5bd")]
+offset_left = 3.0
+offset_top = -48.0
+offset_right = 3.0
+offset_bottom = -48.0
 Village = 7
 NeighboringVillage1 = 9
 
-[node name="HDorf" parent="." instance=ExtResource("1_tocnh")]
-position = Vector2(-78, 176)
+[node name="8Dorf" parent="." instance=ExtResource("1_tocnh")]
+offset_left = -78.0
+offset_top = 176.0
+offset_right = -78.0
+offset_bottom = 176.0
 Village = 8
 NeighboringVillage1 = 10
 
-[node name="IDorf" parent="." instance=ExtResource("2_hk5bd")]
-position = Vector2(138, -146)
+[node name="9Dorf" parent="." instance=ExtResource("2_hk5bd")]
+offset_left = 138.0
+offset_top = -146.0
+offset_right = 138.0
+offset_bottom = -146.0
 Village = 9
+NeighboringVillage1 = 10
+NeighboringVillage2 = 11
 
-[node name="JDorf" parent="." instance=ExtResource("1_tocnh")]
-position = Vector2(129, 110)
+[node name="10Dorf" parent="." instance=ExtResource("1_tocnh")]
+offset_left = 129.0
+offset_top = 110.0
+offset_right = 129.0
+offset_bottom = 110.0
 Village = 10
 NeighboringVillage1 = 9
 NextToBase = true
 
-[node name="KDorf" parent="." instance=ExtResource("2_hk5bd")]
-position = Vector2(405, -143)
+[node name="11Dorf" parent="." instance=ExtResource("2_hk5bd")]
+offset_left = 405.0
+offset_top = -143.0
+offset_right = 405.0
+offset_bottom = -143.0
 Village = 11
 NeighboringVillage1 = 12
 
-[node name="LDorf" parent="." instance=ExtResource("2_hk5bd")]
-position = Vector2(411, 74)
+[node name="12Dorf" parent="." instance=ExtResource("2_hk5bd")]
+offset_left = 411.0
+offset_top = 74.0
+offset_right = 411.0
+offset_bottom = 74.0
 Village = 12
 NextToBase = true

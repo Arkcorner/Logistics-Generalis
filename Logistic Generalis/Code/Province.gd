@@ -1,6 +1,5 @@
 extends Node2D
 
-
 class_name Province
 
 @export var province_number: int = 0
