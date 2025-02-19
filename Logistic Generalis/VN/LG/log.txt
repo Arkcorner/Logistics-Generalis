@@ -1,0 +1,49 @@
+2025-02-19 19:58:51 UTC
+Windows-10-10.0.19045
+Ren'Py 8.3.4.24120703
+
+Logistics Generalis
+1.0
+Built at 2025-02-19 18:05:54 UTC
+
+Early init took 0.04s
+Loading error handling took 0.02s
+Loading script took 0.09s
+Loading save slot metadata took 0.02s
+Loading persistent took 0.00s
+Set script version to: (8, 3, 4)
+Running init code took 0.02s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.01s
+Index archives took 0.00s
+Dump and make backups took 0.00s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.02s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.02s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.01s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1440)
+swap interval: 1 frames
+Fullscreen mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon RX 6950 XT'
+Version: b'4.6.0 Compatibility Profile Context 24.10.27.02.241120'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2560, 1440) drawable=(2560, 1440)
+Maximum texture size: 4096x4096
