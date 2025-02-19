@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://cp31fs1037qhh"]
+
+[ext_resource type="Script" path="res://Code/Convoy.gd" id="1_u6i0p"]
+[ext_resource type="Texture2D" uid="uid://cud3t234ixe4i" path="res://Art/Highlighted.png" id="2_xx8uq"]
+
+[node name="Convoy" type="Node2D"]
+script = ExtResource("1_u6i0p")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_xx8uq")
